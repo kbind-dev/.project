@@ -1,0 +1,71 @@
+# .project metadata for kbind
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set project_lead GitHub handle
+# TODO: Set slack_channels
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+# TODO: No maintainers found in cncf/foundation project-maintainers.csv — add maintainer handles manually
+
+schema_version: "1.0.0"
+slug: "kbind"
+name: "kbind"
+description: "An open source project that aims to provide better support for service providers and consumers that reside in distinct Kubernetes clusters"
+type: "project"
+# TODO: Set project lead GitHub handle
+# project_lead: "github-handle"
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#kbind"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2026-07-10T16:23:27Z"
+    issue: "https://github.com/cncf/sandbox/issues/496" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kube-bind/kube-bind"
+
+website: "https://kube-bind.io"
+
+artwork: "https://docs.kube-bind.io/main/logo.png"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kbind-dev/kbind/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kbind-dev/kbind"
+
+
+security:
+  policy:
+    path: "https://github.com/kbind-dev/kbind/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kbind-dev/kbind/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kbind-dev/kbind/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kbind-dev/kbind/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/kbind-dev/kbind/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kbind-dev/kbind/blob/main/README.md"
+
+
+# CLOMonitor Score: 75/100
+# Documentation: 97 | License: 75 | Best Practices: 42 | Security: 68
