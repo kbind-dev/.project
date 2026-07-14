@@ -12,12 +12,10 @@ slug: "kbind"
 name: "kbind"
 description: "An open source project that aims to provide better support for service providers and consumers that reside in distinct Kubernetes clusters"
 type: "project"
-# TODO: Set project lead GitHub handle
-# project_lead: "github-handle"
-# TODO: Set CNCF Slack channel(s)
-# slack_channels:
-#   - name: "#kbind"
-#     primary: true
+project_lead: "sttts"
+slack_channels:
+   - name: "#kbind"
+     primary: true
 
 maturity_log:
   - phase: "sandbox"
@@ -25,20 +23,17 @@ maturity_log:
     issue: "https://github.com/cncf/sandbox/issues/496" # TODO: AUTO-DETECTED — please verify
 
 repositories:
-  - "https://github.com/kube-bind/kube-bind"
+  - "https://github.com/kbind-dev/kbind"
 
-website: "https://kube-bind.io"
+website: "https://kbind.dev"
 
-artwork: "https://docs.kube-bind.io/main/logo.png"
+artwork: "https://kbind.dev/icons/logo.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/kbind-dev/kbind/blob/main/ADOPTERS.md"
+adopters:
+  path: "https://github.com/kbind-dev/kbind/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "kbind-dev/kbind"
+package_managers:
+   docker: "kbind-dev/kbind"
 
 
 security:

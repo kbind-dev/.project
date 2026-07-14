@@ -1,4 +1,4 @@
 # CODEOWNERS for .project metadata repository
 # Changes to project metadata require maintainer review.
-# TODO: Add CODEOWNERS
 # * @maintainer-handle
+* @kube-bind/kube-bind-maintainers
