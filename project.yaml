@@ -33,7 +33,7 @@ adopters:
   path: "https://github.com/kbind-dev/kbind/blob/main/ADOPTERS.md"
 
 package_managers:
-   docker: "kbind-dev/kbind"
+   docker: "ghcr.io/kbind-dev"
 
 
 security:
