@@ -27,7 +27,7 @@ repositories:
 
 website: "https://kbind.dev"
 
-artwork: "https://kbind.dev/icons/logo.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kbind"
 
 adopters:
   path: "https://github.com/kbind-dev/kbind/blob/main/ADOPTERS.md"
